@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 1px solid rgb(228, 228, 228);
+    height: auto;
+    margin: auto;
+    width: 80%;
+    background-color: aliceblue;
+    font-family: monospace, sans-serif;
+}
+
+/*Navigational Bar Creation*/
+.nav{
+    background-color: rgb(236, 236, 232);
+    width: 80%;
+    height: 65px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav li a{
+    text-decoration: none;
+}
+
+.nav-a:active{
+    color: rgb(47, 24, 255);
+}
+
+.nav-a:hover{
+    background-color: rgb(202, 212, 221);
+}
+
+/*Header creation and creator*/
+.header{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.header, article{
+    position: relative;
+    top: 65px;
+}
+.learn{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    background-color: rgba(214, 212, 183, 0.205);
+    padding: 15px;
+}
+
+.learn h3{
+    margin-top: 8px;
+}
+
+.learn li{
+    margin-left: 80px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.cont-sec{
+    margin-top: 60px;
+}
+
+.none{
+    margin: 10px auto !important;
+    padding: 0 !important;
+}
+
+.h1{
+    font-size: 28px;
+}
+/*HTML Table*/
+.table-sec{
+    background-color: rgba(214, 212, 183, 0.205);
+    width: 50%;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.table-h2{
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+.html-table{
+    margin: 10px auto 60px auto;
+    background-color: rgba(214, 212, 183, 0.205);
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(211, 180, 180);
+}
+
+.html-table td{
+    padding: 10px;
+    border: 1px solid rgb(211, 180, 180);
+}
+
+.html-table th{
+    background-color: rgb(211, 180, 180);
+    padding: 10px;
+}
+
+.table-highlight{
+    background-color: rgb(228, 220, 209);
+}
